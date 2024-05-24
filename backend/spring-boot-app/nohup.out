@@ -1,0 +1,183 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcom.idp:spring-boot-app[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding spring-boot-app 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:3.2.5:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mspring-boot-app[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mspring-boot-app[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 0 resource from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mspring-boot-app[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mspring-boot-app[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/mayur/Mayur/IDP/PROJECTS/java projects/demo1/backend/spring-boot-app/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mspring-boot-app[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:3.2.5:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mspring-boot-app[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.2.5:run[m [1m(default-cli)[m @ [36mspring-boot-app[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.5.0/maven-shade-plugin-3.5.0.jar
+Progress (1): 2.7/147 kBProgress (1): 5.5/147 kBProgress (1): 8.2/147 kBProgress (1): 11/147 kB Progress (1): 14/147 kBProgress (1): 16/147 kBProgress (1): 19/147 kBProgress (1): 22/147 kBProgress (1): 25/147 kBProgress (1): 27/147 kBProgress (1): 30/147 kBProgress (1): 33/147 kBProgress (1): 36/147 kBProgress (1): 38/147 kBProgress (1): 41/147 kBProgress (1): 44/147 kBProgress (1): 47/147 kBProgress (1): 49/147 kBProgress (1): 52/147 kBProgress (1): 55/147 kBProgress (1): 58/147 kBProgress (1): 60/147 kBProgress (1): 64/147 kBProgress (1): 69/147 kBProgress (1): 73/147 kBProgress (1): 77/147 kBProgress (1): 81/147 kBProgress (1): 85/147 kBProgress (1): 89/147 kBProgress (1): 93/147 kBProgress (1): 97/147 kBProgress (1): 101/147 kBProgress (1): 105/147 kBProgress (1): 109/147 kBProgress (1): 114/147 kBProgress (1): 118/147 kBProgress (1): 122/147 kBProgress (1): 126/147 kBProgress (1): 130/147 kBProgress (1): 134/147 kBProgress (1): 138/147 kBProgress (1): 142/147 kBProgress (1): 146/147 kBProgress (1): 147 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.5.0/maven-shade-plugin-3.5.0.jar (147 kB at 500 kB/s)
+[[1;33mWARNING[m] Error injecting: org.springframework.boot.maven.RunMojo
+[1;31mjava.lang.TypeNotPresentException[m: [1;31mType org.springframework.boot.maven.RunMojo not present[m
+    [1mat[m org.eclipse.sisu.space.URLClassSpace.loadClass ([1mURLClassSpace.java:147[m)
+    [1mat[m org.eclipse.sisu.space.NamedClass.load ([1mNamedClass.java:46[m)
+    [1mat[m org.eclipse.sisu.space.AbstractDeferredClass.get ([1mAbstractDeferredClass.java:48[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory.provision ([1mProviderInternalFactory.java:85[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.provision ([1mInternalFactoryToInitializableAdapter.java:57[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory$1.call ([1mProviderInternalFactory.java:66[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:112[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:127[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback.provision ([1mProvisionListenerStackCallback.java:66[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory.circularGet ([1mProviderInternalFactory.java:61[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.get ([1mInternalFactoryToInitializableAdapter.java:47[m)
+    [1mat[m com.google.inject.internal.InjectorImpl$1.get ([1mInjectorImpl.java:1050[m)
+    [1mat[m org.eclipse.sisu.inject.Guice4$1.get ([1mGuice4.java:162[m)
+    [1mat[m org.eclipse.sisu.inject.LazyBeanEntry.getValue ([1mLazyBeanEntry.java:81[m)
+    [1mat[m org.eclipse.sisu.plexus.LazyPlexusBean.getValue ([1mLazyPlexusBean.java:51[m)
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:263[m)
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:255[m)
+    [1mat[m org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo ([1mDefaultMavenPluginManager.java:520[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:124[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:210[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:156[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:148[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:305[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m sun.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m sun.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m sun.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:498[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[1mCaused by[m: java.lang.UnsupportedClassVersionError: [1;31morg/springframework/boot/maven/RunMojo has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0[m
+    [1mat[m java.lang.ClassLoader.defineClass1 ([1mNative Method[m)
+    [1mat[m java.lang.ClassLoader.defineClass ([1mClassLoader.java:756[m)
+    [1mat[m java.security.SecureClassLoader.defineClass ([1mSecureClassLoader.java:142[m)
+    [1mat[m java.net.URLClassLoader.defineClass ([1mURLClassLoader.java:473[m)
+    [1mat[m java.net.URLClassLoader.access$100 ([1mURLClassLoader.java:74[m)
+    [1mat[m java.net.URLClassLoader$1.run ([1mURLClassLoader.java:369[m)
+    [1mat[m java.net.URLClassLoader$1.run ([1mURLClassLoader.java:363[m)
+    [1mat[m java.security.AccessController.doPrivileged ([1mNative Method[m)
+    [1mat[m java.net.URLClassLoader.findClass ([1mURLClassLoader.java:362[m)
+    [1mat[m org.codehaus.plexus.classworlds.realm.ClassRealm.loadClassFromSelf ([1mClassRealm.java:425[m)
+    [1mat[m org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass ([1mSelfFirstStrategy.java:42[m)
+    [1mat[m org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass ([1mClassRealm.java:271[m)
+    [1mat[m org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass ([1mClassRealm.java:247[m)
+    [1mat[m org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass ([1mClassRealm.java:239[m)
+    [1mat[m org.eclipse.sisu.space.URLClassSpace.loadClass ([1mURLClassSpace.java:139[m)
+    [1mat[m org.eclipse.sisu.space.NamedClass.load ([1mNamedClass.java:46[m)
+    [1mat[m org.eclipse.sisu.space.AbstractDeferredClass.get ([1mAbstractDeferredClass.java:48[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory.provision ([1mProviderInternalFactory.java:85[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.provision ([1mInternalFactoryToInitializableAdapter.java:57[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory$1.call ([1mProviderInternalFactory.java:66[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:112[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision ([1mProvisionListenerStackCallback.java:127[m)
+    [1mat[m com.google.inject.internal.ProvisionListenerStackCallback.provision ([1mProvisionListenerStackCallback.java:66[m)
+    [1mat[m com.google.inject.internal.ProviderInternalFactory.circularGet ([1mProviderInternalFactory.java:61[m)
+    [1mat[m com.google.inject.internal.InternalFactoryToInitializableAdapter.get ([1mInternalFactoryToInitializableAdapter.java:47[m)
+    [1mat[m com.google.inject.internal.InjectorImpl$1.get ([1mInjectorImpl.java:1050[m)
+    [1mat[m org.eclipse.sisu.inject.Guice4$1.get ([1mGuice4.java:162[m)
+    [1mat[m org.eclipse.sisu.inject.LazyBeanEntry.getValue ([1mLazyBeanEntry.java:81[m)
+    [1mat[m org.eclipse.sisu.plexus.LazyPlexusBean.getValue ([1mLazyPlexusBean.java:51[m)
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:263[m)
+    [1mat[m org.codehaus.plexus.DefaultPlexusContainer.lookup ([1mDefaultPlexusContainer.java:255[m)
+    [1mat[m org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo ([1mDefaultMavenPluginManager.java:520[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:124[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:210[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:156[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:148[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:305[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m sun.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m sun.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m sun.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:498[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.263 s
+[[1;34mINFO[m] Finished at: 2024-05-23T10:43:40+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.springframework.boot:spring-boot-maven-plugin:3.2.5:run[m [1m(default-cli)[m on project [36mspring-boot-app[m: [1;31mExecution default-cli of goal org.springframework.boot:spring-boot-maven-plugin:3.2.5:run failed: Unable to load the mojo 'run' in the plugin 'org.springframework.boot:spring-boot-maven-plugin:3.2.5' due to an API incompatibility: org.codehaus.plexus.component.repository.exception.ComponentLookupException: org/springframework/boot/maven/RunMojo has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0[m
+[[1;31mERROR[m] [1;31m-----------------------------------------------------[m
+[[1;31mERROR[m] [1;31mrealm =    plugin>org.springframework.boot:spring-boot-maven-plugin:3.2.5[m
+[[1;31mERROR[m] [1;31mstrategy = org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy[m
+[[1;31mERROR[m] [1;31murls[0] = file:/home/mayur/.m2/repository/org/springframework/boot/spring-boot-maven-plugin/3.2.5/spring-boot-maven-plugin-3.2.5.jar[m
+[[1;31mERROR[m] [1;31murls[1] = file:/home/mayur/.m2/repository/org/springframework/boot/spring-boot-buildpack-platform/3.2.5/spring-boot-buildpack-platform-3.2.5.jar[m
+[[1;31mERROR[m] [1;31murls[2] = file:/home/mayur/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar[m
+[[1;31mERROR[m] [1;31murls[3] = file:/home/mayur/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar[m
+[[1;31mERROR[m] [1;31murls[4] = file:/home/mayur/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar[m
+[[1;31mERROR[m] [1;31murls[5] = file:/home/mayur/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.14.2/jackson-module-parameter-names-2.14.2.jar[m
+[[1;31mERROR[m] [1;31murls[6] = file:/home/mayur/.m2/repository/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar[m
+[[1;31mERROR[m] [1;31murls[7] = file:/home/mayur/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar[m
+[[1;31mERROR[m] [1;31murls[8] = file:/home/mayur/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar[m
+[[1;31mERROR[m] [1;31murls[9] = file:/home/mayur/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.3/httpclient5-5.2.3.jar[m
+[[1;31mERROR[m] [1;31murls[10] = file:/home/mayur/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar[m
+[[1;31mERROR[m] [1;31murls[11] = file:/home/mayur/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar[m
+[[1;31mERROR[m] [1;31murls[12] = file:/home/mayur/.m2/repository/org/tomlj/tomlj/1.0.0/tomlj-1.0.0.jar[m
+[[1;31mERROR[m] [1;31murls[13] = file:/home/mayur/.m2/repository/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar[m
+[[1;31mERROR[m] [1;31murls[14] = file:/home/mayur/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar[m
+[[1;31mERROR[m] [1;31murls[15] = file:/home/mayur/.m2/repository/org/springframework/boot/spring-boot-loader-tools/3.2.5/spring-boot-loader-tools-3.2.5.jar[m
+[[1;31mERROR[m] [1;31murls[16] = file:/home/mayur/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.3.2/maven-common-artifact-filters-3.3.2.jar[m
+[[1;31mERROR[m] [1;31murls[17] = file:/home/mayur/.m2/repository/org/springframework/spring-core/6.1.6/spring-core-6.1.6.jar[m
+[[1;31mERROR[m] [1;31murls[18] = file:/home/mayur/.m2/repository/org/springframework/spring-jcl/6.1.6/spring-jcl-6.1.6.jar[m
+[[1;31mERROR[m] [1;31murls[19] = file:/home/mayur/.m2/repository/org/springframework/spring-context/6.1.6/spring-context-6.1.6.jar[m
+[[1;31mERROR[m] [1;31murls[20] = file:/home/mayur/.m2/repository/org/springframework/spring-aop/6.1.6/spring-aop-6.1.6.jar[m
+[[1;31mERROR[m] [1;31murls[21] = file:/home/mayur/.m2/repository/org/springframework/spring-beans/6.1.6/spring-beans-6.1.6.jar[m
+[[1;31mERROR[m] [1;31murls[22] = file:/home/mayur/.m2/repository/org/springframework/spring-expression/6.1.6/spring-expression-6.1.6.jar[m
+[[1;31mERROR[m] [1;31murls[23] = file:/home/mayur/.m2/repository/io/micrometer/micrometer-observation/1.12.5/micrometer-observation-1.12.5.jar[m
+[[1;31mERROR[m] [1;31murls[24] = file:/home/mayur/.m2/repository/io/micrometer/micrometer-commons/1.12.5/micrometer-commons-1.12.5.jar[m
+[[1;31mERROR[m] [1;31murls[25] = file:/home/mayur/.m2/repository/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar[m
+[[1;31mERROR[m] [1;31murls[26] = file:/home/mayur/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.jar[m
+[[1;31mERROR[m] [1;31murls[27] = file:/home/mayur/.m2/repository/org/apache/maven/plugins/maven-shade-plugin/3.5.0/maven-shade-plugin-3.5.0.jar[m
+[[1;31mERROR[m] [1;31murls[28] = file:/home/mayur/.m2/repository/org/ow2/asm/asm/9.5/asm-9.5.jar[m
+[[1;31mERROR[m] [1;31murls[29] = file:/home/mayur/.m2/repository/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar[m
+[[1;31mERROR[m] [1;31murls[30] = file:/home/mayur/.m2/repository/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar[m
+[[1;31mERROR[m] [1;31murls[31] = file:/home/mayur/.m2/repository/org/jdom/jdom2/2.0.6.1/jdom2-2.0.6.1.jar[m
+[[1;31mERROR[m] [1;31murls[32] = file:/home/mayur/.m2/repository/org/apache/maven/shared/maven-dependency-tree/3.2.1/maven-dependency-tree-3.2.1.jar[m
+[[1;31mERROR[m] [1;31murls[33] = file:/home/mayur/.m2/repository/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar[m
+[[1;31mERROR[m] [1;31murls[34] = file:/home/mayur/.m2/repository/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar[m
+[[1;31mERROR[m] [1;31murls[35] = file:/home/mayur/.m2/repository/org/vafer/jdependency/2.8.0/jdependency-2.8.0.jar[m
+[[1;31mERROR[m] [1;31murls[36] = file:/home/mayur/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar[m
+[[1;31mERROR[m] [1;31mNumber of foreign imports: 1[m
+[[1;31mERROR[m] [1;31mimport: Entry[import  from realm ClassRealm[maven.api, parent: null]][m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] [1;31m-----------------------------------------------------[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/PluginContainerException
