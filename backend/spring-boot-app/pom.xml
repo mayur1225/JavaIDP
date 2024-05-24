@@ -60,6 +60,7 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+					<mainClass>com.idp.webapp.SpringBootAppApplication</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
