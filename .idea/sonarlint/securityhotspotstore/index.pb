@@ -29,3 +29,11 @@ e
 5frontend/angular-ecommerce/src/app/app.component.html,2/5/25777d56631cd642d73fe03c10915f2cc75a6ae9
 Y
 )frontend/angular-ecommerce/src/index.html,6/b/6be6a68ec3ec29a1a7dea451ca3da0306c552655
+`
+0frontend/angular-ecommerce/src/app/app.config.ts,5/4/5411508f8102a4fec4ad736c82ca3aeb535774a7
+Y
+)frontend/angular-ecommerce/src/styles.css,6/b/6b82a2b824f371d3c035d6a2a804c450bcd2fc86
+Q
+!backend/spring-boot-app/nohup.out,0/5/0555e35052cd489cb49d3c1b1461b0d4bc41c409
+c
+3frontend/angular-ecommerce/src/app/app.component.ts,8/e/8e467499b65784b524f8c7a8fffd54b0eb77e0ea
