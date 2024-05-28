@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+
 @Configuration
 public class MyDataRestConfig implements RepositoryRestConfigurer {
 
@@ -42,6 +43,8 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
                 .forDomainType(ProductCategory.class)
                 .withItemExposure((metadata, httpMethods) -> httpMethods.disable(theUnsupportedActions))
                 .withCollectionExposure((metadata, httpMethods) -> httpMethods.disable(theUnsupportedActions));
+
+        exposeIds (config);
     }
 
     private void exposeIds(RepositoryRestConfiguration config) {
